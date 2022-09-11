@@ -1,8 +1,9 @@
+import React from "react";
 import "./Auth.css";
-import { Col, Nav, Row, Tab } from "react-bootstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import Signup from "./Signup";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Tab, Row, Col, Nav } from "react-bootstrap";
 import Login from "./Login";
+import Signup from "./Signup";
 
 export default function Auth() {
   return (
